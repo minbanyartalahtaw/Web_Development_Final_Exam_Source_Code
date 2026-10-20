@@ -2,7 +2,8 @@
 
 import { createContext, useEffect, useRef, useState } from "react";
 
-const API_URL = import.meta.env.VITE_API_URL;
+// Strip trailing slashes so "https://x.app/" + "/api/..." never becomes "//api"
+const API_URL = (import.meta.env.VITE_API_URL ?? "").replace(/\/+$/, "");
 
 // eslint-disable-next-line react-refresh/only-export-components
 export const UserContext = createContext();
