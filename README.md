@@ -2,8 +2,8 @@
 
 ## Student Information
 
-- **Student Name:**
-- **Student ID:**
+- **Student Name :** Min Banyar Tala Htaw
+- **Student ID :** 6715168
 
 ## Test Credentials
 
@@ -57,11 +57,11 @@ All test users share the password **`password123`**. You can log in with either 
 
 **Student** (log in as `student1`)
 
-1. **All Courses** lists every course except those with status *Cancel*.
+1. **All Courses** lists every course except those with status _Cancel_.
 2. Type in the search box to filter by part of the course name or teacher name (e.g. `teacher1`).
 3. Click a course to see its details, then **Enroll**.
-   - Enrolling is only allowed when the status is *Open* and seats remain (Max Student).
+   - Enrolling is only allowed when the status is _Open_ and seats remain (Max Student).
    - Enrolling twice in the same course is rejected.
-   - *Close* courses are visible but cannot be enrolled in.
+   - _Close_ courses are visible but cannot be enrolled in.
 4. **My Enrollments** lists the courses this student is enrolled in.
 5. Log back in as the teacher to see the student in the course's **Enrolled Students** table.
